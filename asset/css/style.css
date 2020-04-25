@@ -3408,3 +3408,218 @@ a.submitbtn-career:hover{
     }
 }
 
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand{
+	margin-left: 0;
+}.userButtons{
+	margin-right: 0;
+}
+
+
+
+.dash-sidebar{
+	background: #0E2E47;
+	/*height: 100vh;*/
+	width: 100%;
+	padding: 60px 0px 30px;
+	margin-top: -30px;
+}
+.dash-sidebar .profile{
+	margin-bottom: 10px;
+	padding: 0 10px;
+	position: relative;
+}
+.dash-sidebar .profile .img-block,
+.dash-sidebar .profile .content-block{
+	display: inline-block;
+}
+.dash-sidebar .profile .img-block{
+	width: 50px;
+	height: 50px;
+	margin-right: 15px
+}
+.dash-sidebar .profile .img-block img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+	-webkit-object-fit: cover;
+	-moz-object-fit: cover;
+	-o-object-fit: cover;
+}
+.dash-sidebar .profile .content-block{
+	color: #fff;
+	position: absolute;
+	top: 8px;
+}
+.dash-sidebar .profile .content-block h5{
+	margin-bottom: 6px;
+}
+.dash-sidebar .profile .content-block h6{
+	color: #ddd;
+	font-size: 10px;
+}
+.sidebar-options{
+	height: 100vh;
+}
+.sidebar-options ul li a{
+	display: block;
+	padding: 15px 20px;
+	font-size: 16px;
+	color: #eee;
+}
+.sidebar-options ul li a i{
+	font-size: 14px;
+	margin-right: 8px;
+}
+.sidebar-options ul li a:hover{
+	background: #1f3b60;
+	color: #fff;
+}
+.bottom-sidebar{
+	background: #fff;
+	padding: 20px;
+}
+.bottom-sidebar .img-block{
+	width: 50px;
+	height: 50px;
+	margin: 0 auto;
+	margin-bottom: 10px;
+}
+.bottom-sidebar .img-block img{
+	width: 100%;
+	height: 100%;
+	border-radius: 50%;
+	object-fit: cover;
+	-webkit-object-fit: cover;
+	-moz-object-fit: cover;
+	-o-object-fit: cover;
+}
+.bottom-sidebar ul{
+	text-align: center;
+}
+.bottom-sidebar ul li{
+	display: inline-block;
+	font-size: 12px;
+	cursor:pointer;
+	color: #1d6cb6; 
+}
+.bottom-sidebar ul li a{
+	width: 30px;
+	height: 30px;
+	display: block;
+	border: 1px solid #1d6cb6;
+	border-radius: 50%;
+	line-height: 30px;
+	margin: 0 5px;
+	text-align: center;
+}
+.bottom-sidebar ul li a i{
+	font-size: 12px;
+	color: #1d6cb6;
+}
+.bottom-sidebar ul li:hover a{
+	opacity: 0.8;
+}
+.right-profile-bar .heading-top{
+	font-size: 20px;
+	letter-spacing: 1px;
+	margin-bottom: 20px;
+}
+.right-profile-bar .info-heading{
+	border-bottom: 1px solid #ddd;
+	padding: 5px 15px;
+	position: relative;
+	font-size: 12px;
+	font-weight: 600;
+}
+.right-profile-bar .info-heading:after{
+	position: absolute;
+	bottom: -1px;
+	left: 0;
+	width: 100px;
+	height: 2px;
+	background: #1f3b60;
+	content: "";
+}
+.info-block-section{
+	background: #fff;
+	padding: 10px;
+	-webkit-box-shadow: 0px 0px 5px 0px rgba(179,179,179,1);
+	-moz-box-shadow: 0px 0px 5px 0px rgba(179,179,179,1);
+	box-shadow: 0px 0px 5px 0px rgba(179,179,179,1);
+	margin-bottom: 20px;
+}
+.info-block-section p{
+	font-size: 13px;
+	letter-spacing: 1px; 
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+.info-block-section label{
+	font-size: 11px;
+	font-family: 'Lato', sans-serif;
+	text-transform: uppercase;
+	/*letter-spacing: 1px;*/
+	font-weight: bold;
+}
+.info-block-section .form-info{
+	border: none;
+	border-bottom: 1px solid #ddd;
+	border-radius: 0;
+	box-shadow: none;
+	outline: none;
+	width: 100%;
+	height: 30px;
+	font-size: 13px;
+	margin-bottom: 10px;
+}
+.info-block-section select.form-info{
+  -webkit-appearance:none;
+   -moz-appearance:none;
+   -ms-appearance:none;
+   appearance:none;
+   outline:0;
+   box-shadow:none;
+   background-image: none;
+   flex: 1;
+   padding: 0 .5em;
+   cursor:pointer;
+}
+.info-block-section select.form-infoselect::-ms-expand {
+   display: none;
+}
+ 
+.info-block-section .select {
+   position: relative;
+   display: flex;
+   overflow: hidden;
+   border-radius: .25em;
+}
+.info-block-section .select::after {
+   content: '\25BC';
+   position: absolute;
+   top: 0;
+   right: 0;
+   padding: 0 1em;
+   font-size: 12px;
+   color: #d4d4d4;
+   cursor:pointer;
+   pointer-events:none;
+   transition:.25s all ease;
+}
+.info-block-section .select:hover::after {
+	opacity: 0.7;
+}
+.button-theme{
+	padding: 10px 25px;
+    color: #fff;
+    background: #0E2E47;
+    border-radius: 5px;
+    font-size: 11px;
+    border: 1px solid #0E2E47;
+    width: auto;
+    text-transform: uppercase;
+}
+.button-theme:hover{
+	opacity: 0.8;
+}
