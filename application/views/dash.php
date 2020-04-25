@@ -5,8 +5,6 @@
     <div class="container">
     	
         <div class="row">
-
-
             <!-- start sidebar -->
             <div class="col-lg-3 col-md-3 col-sm-4">
                 <div class="dash-sidebar">
@@ -21,11 +19,11 @@
                     </div>
                     <div class="sidebar-options">
                         <ul>
-                            <li><a href="javascript://"><i class="fas fa-home"></i>Dashboard</a></li>
+                            <li><a href="<?=BASEURL?>home/dash"><i class="fas fa-home"></i>Dashboard</a></li>
                             <li><a href="javascript://"><i class="far fa-bookmark"></i>&nbsp; Favorites</a></li>
                             <li><a href="javascript://"><i class="fas fa-search"></i> Saved Searches</a></li>
                             <li><a href="javascript://"><i class="far fa-bell"></i> Notifications</a></li>
-                            <li><a href="javascript://"><i class="far fa-edit"></i>Profile</a></li>
+                            <li><a href="<?=BASEURL?>home/dash"><i class="far fa-edit"></i>Profile</a></li>
                         </ul>
                     </div><!-- /sidebar-options -->
                 </div><!-- /dash-sidebar -->

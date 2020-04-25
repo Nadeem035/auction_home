@@ -136,7 +136,7 @@
                 if ($login == true)
                 {
                 ?>
-                    <li class="userBtn"><a href="<?=BASEURL.'home/dash'?>" class="buttonTheme">DASHBOARD</a></li>
+                    <li class="userBtn"><a href="<?=BASEURL.'home/dash'?>" class="buttonTheme"><?=$user_meta['name']?></a></li>
                     <li class="userBtn"><a href="<?=BASEURL.'home/logout'?>" class="buttonTheme">LOGOUT</a></li>
                     <li class="userBtn" style="margin-left: 10px; padding: 0;"><a href="javascript://" style="font-size: 20px; color: #000;"><i class="fa fa-bars"></i></a></li>
                 <?php

@@ -38,7 +38,7 @@
                 <div>
                     <img src="<?=IMG?>trad_list.png" alt="">
                 </div>
-                <a href="javascript://">learn more</a>
+                <a href="<?=BASEURL?>home/page/traditional-listing">learn more</a>
             </div><!-- /piller-block -->
         </div><!-- /col-xs-5ths -->
         <div class="col-md-5ths col-sm-6">
@@ -48,7 +48,7 @@
                 <div>
                     <img src="<?=IMG?>auction.png" alt="">
                 </div>
-                <a href="javascript://">learn more</a>
+                <a href="<?=BASEURL?>home/page/classic-auction">learn more</a>
             </div><!-- /piller-block -->
         </div><!-- /col-xs-5ths -->
         <div class="col-md-5ths col-sm-6">
@@ -58,7 +58,7 @@
                 <div>
                     <img src="<?=IMG?>auction.png" alt="">
                 </div>
-                <a href="javascript://">learn more</a>
+                <a href="<?=BASEURL?>home/page/absolute-auction">learn more</a>
             </div><!-- /piller-block -->
         </div><!-- /col-xs-5ths -->
         <div class="col-md-5ths col-sm-6">
@@ -68,7 +68,7 @@
                 <div>
                     <img src="<?=IMG?>manage.png" alt="">
                 </div>
-                <a href="javascript://">learn more</a>
+                <a href="<?=BASEURL?>home/page/management">learn more</a>
             </div><!-- /piller-block -->
         </div><!-- /col-xs-5ths -->
         <div class="col-md-5ths col-sm-6">
@@ -78,7 +78,7 @@
                 <div>
                     <img src="<?=IMG?>crow.png" alt="">
                 </div>
-                <a href="javascript://">learn more</a>
+                <a href="<?=BASEURL?>home/page/crowdfunding">learn more</a>
             </div><!-- /piller-block -->
         </div><!-- /col-xs-5ths -->
         <div class="clear"></div>

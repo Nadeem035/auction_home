@@ -44,6 +44,7 @@ $route['contact'] = "home/contact";
 $route['our_listing'] = "home/our_listing";
 $route['management_team'] = "home/management_team";
 $route['pre_register'] = "home/pre_register";
+$route['page/(:any)'] = "home/page/$1";
 $route['404_override'] = '';
 
 
