@@ -13,7 +13,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title><?=$page_title?></title>
 <!-- html5 support in IE8 and later -->
-<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+<!-- /comment -->
+<!-- <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script> -->
+<!-- /comment -->
+
 <!-- CSS file links -->
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css">
 <link href="<?=CSS?>bootstrap.min.css" rel="stylesheet" media="screen">

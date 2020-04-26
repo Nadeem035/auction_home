@@ -101,18 +101,31 @@
 <script src="<?php echo base_url(); ?>asset/js/jquery.js"></script>			<!-- Jquery -->
 <script src="<?php echo base_url(); ?>asset/js/bootstrap.min.js"></script>  <!-- bootstrap 3.0 -->
 <script src="<?php echo base_url(); ?>asset/js/respond.js"></script>
-<script src="<?php echo base_url(); ?>asset/js/jquery.bxslider.min.js"></script>           <!-- bxslider -->
+<!-- /comment -->
+<!-- <script src="<?php echo base_url(); ?>asset/js/jquery.bxslider.min.js"></script> -->
+<!-- /comment -->           
+<!-- bxslider -->
 <script src="<?php echo base_url(); ?>asset/js/tabs.js"></script>       <!-- tabs -->
-<script src="<?php echo base_url(); ?>asset/js/jquery.nouislider.min.js"></script>  <!-- price slider -->
+<!-- /comment -->
+<!-- <script src="<?php echo base_url(); ?>asset/js/jquery.nouislider.min.js"></script>   -->
+<!-- /comment -->
+<!-- price slider -->
+<!-- /comment -->
+<!-- <script src="<?php echo base_url(); ?>asset/js/jquery.bxslider.min.js"></script>            -->
+<!-- /comment -->
+<!-- bxslider -->
 
-<script src="<?php echo base_url(); ?>asset/js/jquery.bxslider.min.js"></script>           <!-- bxslider -->
-<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqb3fT3SbMSDMggMEK7fJOIkvamccLrjA&sensor=false"></script><!-- google maps -->
-<script type="text/javascript" src="<?php echo base_url(); ?>asset/js/map-one-pin.js"></script>
+<!-- /comment -->
+
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAqb3fT3SbMSDMggMEK7fJOIkvamccLrjA&sensor=false"></script><!-- google maps --> -->
+<!-- <script type="text/javascript" src="<?php echo base_url(); ?>asset/js/map-one-pin.js"></script> -->
  <!-- map script -->
-<script type="text/javascript" src="http://jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script>
-<script type="text/javascript" src="http://jvectormap.com/js/jquery-jvectormap-us-aea.js"></script>
+<!-- <script type="text/javascript" src="http://jvectormap.com/js/jquery-jvectormap-2.0.3.min.js"></script> -->
+<!-- <script type="text/javascript" src="http://jvectormap.com/js/jquery-jvectormap-us-aea.js"></script> -->
+<!-- /comment -->
 
-<script>
+<!-- /comment -->
+<!-- <script>
 $(function(){
     new jvm.Map({
     map: 'us_aea',
@@ -157,7 +170,8 @@ $(function(){
     }
     });
 });
-</script>
+</script> -->
+<!-- /comment -->
 
 
 
@@ -170,14 +184,19 @@ $(document).ready(function(){
         // console.log('clicked');
         $("html, body").animate({ scrollTop: $('#contact-detail').offset().top }, 1000);
     });
-    $('.bxslider').bxSlider({
+
+   /*<!-- /comment -->*/ 
+    /*$('.bxslider').bxSlider({
         auto: true,
         pager: false,
         nextSelector: '.slider-next',
         prevSelector: '.slider-prev',
         nextText: '<img src="<?php echo base_url(); ?>asset/img/slider-next.png" alt="slider next" />',
         prevText: '<img src="<?php echo base_url(); ?>asset/img/slider-prev.png" alt="slider prev" />'
-    });
+    });*/
+
+/*<!-- /comment -->*/
+
     /*$('#pre_register_form').on('submit', function(event) {
         var count_checked = $("[name='reason[]']:checked").length; // count the checked rows
         if(count_checked == 0) 
@@ -189,8 +208,8 @@ $(document).ready(function(){
     });*/
 });
 </script>
-
-<script>
+<!-- /comment -->
+<!-- <script>
 //Setup price slider 
 var Link = $.noUiSlider.Link;
 
@@ -230,7 +249,9 @@ $(".priceSlider").noUiSlider({
         }
     }
 });
-</script>
+</script> -->
+
+<!-- /comment -->
 
 <script>
 // $.extend($.validator.messages, {
@@ -240,7 +261,8 @@ $(".priceSlider").noUiSlider({
 // });
 </script>
 
-<script>
+<!-- /comment -->
+<!-- <script>
     $('.bxslider2').bxSlider({
       pagerCustom: '#bx-pager',
       nextSelector: '.slider-next',
@@ -248,7 +270,8 @@ $(".priceSlider").noUiSlider({
       nextText: '<img src="<?php echo base_url(); ?>asset/img/slider-next2.png" alt="Next" />',
       prevText: '<img src="<?php echo base_url(); ?>asset/img/slider-prev2.png" alt="Previous" />'
     });
-</script>
+</script> -->
+<!-- /comment -->
 <script>
 $(function(){
    $height = $(window).height();
