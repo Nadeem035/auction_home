@@ -253,8 +253,8 @@ class Home extends CI_Controller {
 	public function index($add = '')
 	{
 		$this->load->database();
-		$user = $this->check_login();
-		if ($user) {
+		if (isset($_SESSION['user'])) {
+			$user = unserialize($_SESSION['user']);
 			$id = $user['id'];
 			$result = $this->db->query("SELECT * FROM `real_user` WHERE `user_id` = '$id' LIMIT 1;");
 			if ($result->num_rows() > 0)
@@ -274,9 +274,9 @@ class Home extends CI_Controller {
 				$user_meta['google'] =  $row->google;
 				$user_meta['rss'] =  $row->rss;
 			}
+			$data['user_meta'] = $user_meta;
 		}
 		
-		$data['user_meta'] = $user_meta;
 		$data['home_page_'] = true;
 		$data['page_title'] = 'Home Page';
 		$data['meta_des'] = 'Home Page';
@@ -572,6 +572,37 @@ class Home extends CI_Controller {
 
 		$this->template('dash',$data);
 	}
+	public function profile()
+	{
+		$user = $this->check_login();
+		$this->load->database();
+		$id = $user['id'];
+
+		$result = $this->db->query("SELECT * FROM `real_user` WHERE `user_id` = '$id' LIMIT 1;");
+		if ($result->num_rows() > 0)
+		{
+			$row = $result->row();
+			$user_meta['id'] =  $row->user_id;
+			$user_meta['name'] =  $row->name;
+			$user_meta['fname'] =  $row->fname;
+			$user_meta['username'] =  $row->username;
+			$user_meta['email'] =  $row->email;
+			$user_meta['phone'] =  $row->phone;
+			$user_meta['mobile'] =  $row->mobile;
+			$user_meta['city'] =  $row->city;
+			$user_meta['about'] =  $row->about;
+			$user_meta['facebook'] =  $row->facebook;
+			$user_meta['twitter'] =  $row->twitter;
+			$user_meta['google'] =  $row->google;
+			$user_meta['rss'] =  $row->rss;
+		}
+		$data['user_meta'] = $user_meta;
+		$data['page_title'] = $user_meta['name'];
+		$data['meta_des'] = 'Home Page';
+		$data['meta_key'] = 'Home Page';
+
+		$this->template('profile',$data);
+	}
 	public function EditProfile($id='')
 	{
 		$user = $this->check_login();
@@ -773,8 +804,8 @@ class Home extends CI_Controller {
 	public function about()
 	{
 		$this->load->database();
-		$user = $this->check_login();
-		if ($user) {
+		if (isset($_SESSION['user'])) {
+			$user = unserialize($_SESSION['user']);
 			$id = $user['id'];
 			$result = $this->db->query("SELECT * FROM `real_user` WHERE `user_id` = '$id' LIMIT 1;");
 			if ($result->num_rows() > 0)
@@ -804,8 +835,8 @@ class Home extends CI_Controller {
 	public function contact()
 	{
 		$this->load->database();
-		$user = $this->check_login();
-		if ($user) {
+		if (isset($_SESSION['user'])) {
+			$user = unserialize($_SESSION['user']);
 			$id = $user['id'];
 			$result = $this->db->query("SELECT * FROM `real_user` WHERE `user_id` = '$id' LIMIT 1;");
 			if ($result->num_rows() > 0)
@@ -835,8 +866,8 @@ class Home extends CI_Controller {
 	public function our_listing()
 	{
 		$this->load->database();
-		$user = $this->check_login();
-		if ($user) {
+		if (isset($_SESSION['user'])) {
+			$user = unserialize($_SESSION['user']);
 			$id = $user['id'];
 			$result = $this->db->query("SELECT * FROM `real_user` WHERE `user_id` = '$id' LIMIT 1;");
 			if ($result->num_rows() > 0)
@@ -866,8 +897,8 @@ class Home extends CI_Controller {
 	public function management_team()
 	{
 		$this->load->database();
-		$user = $this->check_login();
-		if ($user) {
+		if (isset($_SESSION['user'])) {
+			$user = unserialize($_SESSION['user']);
 			$id = $user['id'];
 			$result = $this->db->query("SELECT * FROM `real_user` WHERE `user_id` = '$id' LIMIT 1;");
 			if ($result->num_rows() > 0)
@@ -900,8 +931,8 @@ class Home extends CI_Controller {
 			redirect('index');
 		}
 		$this->load->database();
-		$user = $this->check_login();
-		if ($user) {
+		if (isset($_SESSION['user'])) {
+			$user = unserialize($_SESSION['user']);
 			$id = $user['id'];
 			$result = $this->db->query("SELECT * FROM `real_user` WHERE `user_id` = '$id' LIMIT 1;");
 			if ($result->num_rows() > 0)

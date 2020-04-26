@@ -7,23 +7,28 @@
         <div class="row">
             <!-- start sidebar -->
             <div class="col-lg-3 col-md-3 col-sm-4">
-                <div class="dash-sidebar">
-                    <div class="profile">
-                        <div class="img-block">
-                            <img class="agentImg" src="<?php echo base_url(); ?>asset/img/768x507.gif" alt="" />
-                        </div><!-- /img-block -->   
-                        <div class="content-block">
-                            <h5><?=$user_meta['name']?></h5>
-                            <h6>BUYER</h6>
-                        </div><!-- /img-block -->   
+                <div class="dash-sidebar dashboard">
+                    <div class="button-section-dashboard">
+                        <a href="javascript://" class="button-theme">Brokerage</a>
+                        <a href="javascript://" class="button-theme">Auction Dashboard</a>
+                        <a href="javascript://" class="button-theme">Asset Management</a>
+                        <a href="javascript://" class="button-theme">Agents Dashboard</a>
                     </div>
                     <div class="sidebar-options">
                         <ul>
                             <li><a href="<?=BASEURL?>home/dash"><i class="fas fa-home"></i>Dashboard</a></li>
-                            <li><a href="javascript://"><i class="far fa-bookmark"></i>&nbsp; Favorites</a></li>
-                            <li><a href="javascript://"><i class="fas fa-search"></i> Saved Searches</a></li>
-                            <li><a href="javascript://"><i class="far fa-bell"></i> Notifications</a></li>
-                            <li><a href="<?=BASEURL?>home/dash"><i class="far fa-edit"></i>Profile</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Business Info</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Quotes</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Policies (2)</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Certificates (2)</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Third-Party Insuracne</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Get a New Quote</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Insurance Checklist</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> My Agent</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Claims</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Billing </a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Documents</a></li>
+                            <li><a href="javascript://"><i class="fas fa-info-circle"></i> Member Perks</a></li>
                         </ul>
                     </div><!-- /sidebar-options -->
                 </div><!-- /dash-sidebar -->
@@ -35,147 +40,145 @@
                         <small> Chris </small> <br>
                         Your Personal Advisor <br> 
                         <small>Free & Friendly </small> <br>
-                        <a href="">(123) 123-1234</a></p>
+                        <a href="javascript://">(123) 123-1234</a></p>
                     <ul>
-                        <li><a href=""><i class="fas fa-phone"></i></a> Call</li>
-                        <li><a href=""><i class="far fa-envelope"></i></a> Chat</li>
-                        <li><a href=""><i class="far fa-comment-alt"></i></a> Email</li>
+                        <li><a href="javascript://"><i class="fas fa-phone"></i></a> Call</li>
+                        <li><a href="javascript://"><i class="far fa-envelope"></i></a> Chat</li>
+                        <li><a href="javascript://"><i class="far fa-comment-alt"></i></a> Email</li>
                     </ul>
                 </div><!-- /bottom-sidebar --> 
             </div><!-- end col -->
 
             <!-- start content -->
             <div class="col-lg-9 col-md-9 col-sm-8">
-                <div class="right-profile-bar">
-                    <p class="heading-top">Profile</p>
-                    <p class="info-heading">Account Info</p>
+                <div class="row">
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Request a Certificate</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="fas fa-file-invoice"></i></p>
+                            <p class="name-section">Pay My Bill</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Review My Active Policies</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Request a Certificate</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="fas fa-file-invoice"></i></p>
+                            <p class="name-section">Pay My Bill</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Review My Active Policies</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Request a Certificate</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="fas fa-file-invoice"></i></p>
+                            <p class="name-section">Pay My Bill</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Review My Active Policies</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Request a Certificate</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="fas fa-file-invoice"></i></p>
+                            <p class="name-section">Pay My Bill</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Review My Active Policies</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Request a Certificate</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="fas fa-file-invoice"></i></p>
+                            <p class="name-section">Pay My Bill</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Review My Active Policies</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Request a Certificate</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="fas fa-file-invoice"></i></p>
+                            <p class="name-section">Pay My Bill</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-xs-6">
+                        <div class="info-block-section text-center block-section">
+                            <p><i class="far fa-file-alt"></i></p>
+                            <p class="name-section">Review My Active Policies</p>
+                            <p><a href="javascript://">Take me There <i class="fas fa-angle-double-right"></i></a></p>
+                        </div>
+                    </div>
                 </div>
-                <form action="" method="post">
-                    <div class="info-block-section">
-                        <p>Contact Info</p>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <label for="">Title (Optional)</label>
-                                <input type="text" class="form-info" placeholder="Title">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">First Name</label>
-                                <input type="text" class="form-info" placeholder="First Name">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">Last Name</label>
-                                <input type="text" class="form-info" placeholder="Last Name">
-                            </div>
-                            <div class="col-md-4">
-                                    <label for="">Company Name (Optional)</label>
-                                    <input type="text" class="form-info" placeholder="Company Name">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">Primary Role</label>
-                                <div class="select">
-                                    <select name="" class="form-info">
-                                        <option value=""> -- Select Role -- </option>
-                                        <option value="individual">Individual</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">Assets Owned</label>
-                                <div class="select">
-                                    <select name="" class="form-info">
-                                        <option value="less">Less then $50,000</option>
-                                        <option value="less">$50,000 - $100,000</option>
-                                    </select>
-                                </div>
-                            </div>
-                        </div>
-                    </div><!-- /info-block-section -->
-                    <div class="info-block-section">
-                        <p>Address</p>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <label for="">Country</label>
-                                <div class="select">
-                                    <select name="" class="form-info">
-                                        <option value=""> -- Select Country -- </option>
-                                        <option value="US">US</option>
-                                        <option value="UK">UK</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">State</label>
-                                <div class="select">
-                                    <select name="" class="form-info">
-                                        <option value="">Select State</option>
-                                    </select>
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">City</label>
-                                <input type="text" class="form-info" placeholder="City">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">Address</label>
-                                <input type="text" class="form-info" placeholder="Address">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">Zipcode</label>
-                                <input type="text" class="form-info" placeholder="Zip Code">
-                            </div>
-                        </div>
-                    </div><!-- /info-block-section -->
-                    <div class="info-block-section">
-                        <p>Phone</p>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <label for="">Primary Phone (Optional)</label>
-                                <input type="text" class="form-info" placeholder="(123) 123-1234">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">Mobile Phone (Optional)</label>
-                                <input type="text" class="form-info" placeholder="(123) 123-1234">
-                            </div>
-                        </div>
-                    </div><!-- /info-block-section -->
-                    <input type="submit" class="button-theme" value="Update Info">
-                </form>
-                <form action="" method="post">
-                    <div class="info-block-section">
-                        <p>Change Password</p>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <label for="">Current Password</label>
-                                <input type="Password" class="form-info" placeholder="Current Password">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">New Password</label>
-                                <input type="Password" class="form-info" placeholder="New Password">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">Confirm New Password</label>
-                                <input type="Password" class="form-info" placeholder="Confirm New Password">
-                            </div>
-                        </div>
-                    </div><!-- /info-block-section -->
-                    <input type="submit" class="button-theme" value="Update Password">
-                </form>
-                <form action="" method="post">
-                    <div class="info-block-section">
-                        <p>Email</p>
-                        <div class="row">
-                            <div class="col-md-4">
-                                <label for="">Current Email Address</label>
-                                <input type="Password" class="form-info" placeholder="Current Email Address">
-                            </div>
-                            <div class="col-md-4">
-                                <label for="">Confirm Email Address</label>
-                                <input type="Password" class="form-info" placeholder="Confirm New Address">
-                            </div>
-                        </div>
-                    </div><!-- /info-block-section -->
-                    <input type="submit" class="button-theme" value="Update Email">
-                </form>
             </div><!-- end content -->
 
         </div><!-- end row -->

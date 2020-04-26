@@ -3423,6 +3423,10 @@ a.submitbtn-career:hover{
 	padding: 60px 0px 30px;
 	margin-top: -30px;
 }
+.dash-sidebar.dashboard{
+	background: #fff;
+	padding: 20px 0px 30px;
+}
 .dash-sidebar .profile{
 	margin-bottom: 10px;
 	padding: 0 10px;
@@ -3475,6 +3479,25 @@ a.submitbtn-career:hover{
 	background: #1f3b60;
 	color: #fff;
 }
+.dash-sidebar.dashboard .sidebar-options{
+	height: auto;
+}
+.dash-sidebar.dashboard .sidebar-options ul li a{
+	display: block;
+	padding: 7px 20px;
+	font-size: 14px;
+	color: #222;
+	font-weight: 700;
+}
+.dash-sidebar.dashboard .sidebar-options ul li a i{
+	font-size: 12px;
+	margin-right: 8px;
+}
+.dash-sidebar.dashboard .sidebar-options ul li a:hover{
+	background: #eee;
+	color: #1d6cb6;
+}
+
 .bottom-sidebar{
 	background: #fff;
 	padding: 20px;
@@ -3555,6 +3578,29 @@ a.submitbtn-career:hover{
 	font-weight: 600;
 	margin-bottom: 20px;
 }
+.info-block-section.block-section p{
+	margin: 10px;
+	font-size: 16px;
+}
+.info-block-section.block-section p i{
+	font-size: 20px;
+}
+.info-block-section.block-section p a,
+.info-block-section.block-section p a i{
+	color: #1d6cb6;
+	font-size: 12px;
+}
+.info-block-section.block-section p:last-child{
+	color: #1d6cb6;
+	display: inline-block;
+	border-bottom: 1px solid #1d6cb6;
+}
+.info-block-section.block-section p:last-child:hover{
+	opacity: 0.8;
+}
+.info-block-section.block-section p.name-section{
+	height: 30px;
+}
 .info-block-section label{
 	font-size: 11px;
 	font-family: 'Lato', sans-serif;
@@ -3622,4 +3668,16 @@ a.submitbtn-career:hover{
 }
 .button-theme:hover{
 	opacity: 0.8;
+}
+.button-section-dashboard{
+	padding: 0 30px;
+}
+.button-section-dashboard .button-theme{
+	width: 100%;
+	display: block;
+	text-align: center;
+	margin-bottom: 8px;
+}
+.button-section-dashboard .button-theme:hover{
+	color: #1d6cb6;
 }
